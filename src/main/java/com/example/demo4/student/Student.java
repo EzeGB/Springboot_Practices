@@ -7,11 +7,12 @@ import lombok.Setter;
 import java.time.LocalDate;
 import java.time.Period;
 
-@Setter
-@Getter
 
 @Entity
 @Table
+
+@Setter
+@Getter
 public class Student {
     @Id
     @SequenceGenerator(
